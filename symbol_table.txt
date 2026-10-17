@@ -1,0 +1,372 @@
+## each entry is given in one line <symbol> <description>
+## (parsed with [nonspace+][space+][anything])
+## autocomplete matches any (contiguous) substring of description
+## lines beginning with '##' are ignored
+## all other lines not matching the above regex are also ignored
+
+## Greek and Coptic
+Α alpha capital
+α alpha
+ά alpha tonos
+Β beta capital
+β beta
+Γ gamma capital
+γ gamma
+Δ delta capital
+δ delta
+Ε epsilon capital
+ε epsilon
+έ epsilon tonos
+ϵ epsilon lunate
+Ζ zeta capital
+ζ zeta
+Η eta capital
+ή eta tonos
+η eta
+Ι iota capital
+Ϊ iota dialytika capital
+Κ kappa capital
+Λ lambda capital
+Μ mu capital
+μ mu
+Ν nu capital
+ν nu
+Ξ xi capital
+ξ xi
+Ο omicron capital
+ο omicron
+ό omicron tonos
+Π pi capital
+π pi
+Ρ rho capital
+ρ rho
+Σ sigma capital
+σ sigma
+ς sigma final
+Τ tau capital
+τ tau
+Υ upsilon capital
+Ϋ upsilon dialytika capital
+ΰ upsilon dialytika tonos
+υ upsilon
+ύ upsilon tonos
+ϋ upsilon dialytika
+Φ phi capital
+φ phi curly
+ϕ phi straight
+Χ chi capital
+χ chi
+Ψ psi capital
+ψ psi
+Ω omega capital
+ω omega
+ώ omega tonos
+ί iota tonos
+Θ theta capital
+θ theta small
+ϑ theta curly
+ϴ theta uppercase
+ι iota
+ϊ iota dialytika
+κ kappa
+λ lambda
+Ϙ koppa capital
+Ϟ koppa capital
+ϙ koppa
+ϟ koppa
+Ϛ stigma capital
+ϛ stigma
+Ϝ digamma capital
+ϝ digamma
+Ϡ sampi capital
+ϡ sampi
+
+À A` A grave accent
+Á A' A acute accent
+Â A^ A hat, caret, circumflex
+Ǎ A< A breve
+Ā A- A bar, macron
+Ã A~ A tilde
+Ä A: A umlaut, diaresis
+Å    A ring
+Æ AE ash
+Č C< C breve
+Ç C, cedilla
+È E` E grave accent
+É E' E acute accent
+Ê E^ E hat, caret, circumflex
+Ě E< E breve
+Ē E- E bar, macron
+Ẽ E~ E tilde
+Ë E: E umlaut, diaresis
+Ĝ g> g hat
+Ĥ h> h hat
+Ħ H/ H bar
+Ì I` I grave accent
+Í I' I acute accent
+Î I^ I hat, caret, circumflex
+Ǐ I< I breve
+Ī I- I bar, macron
+Ï I: I umlaut, diaresis
+Ĵ J> J hat
+Ò O` O grave accent
+Ó O' O acute accent
+Ô O^ O hat, caret, circumflex
+Ǒ O< O breve
+Õ O~ O tilde
+Ö O: O umlaut, diaresis
+Ø O/ o with stroke, slashed o
+Ù U` U grave accent
+Ú U' U acute accent
+Û U^ U hat, caret, circumflex
+Ǔ U< U breve
+Ū U- U bar, macron
+Ü U: U umlaut, diaresis
+Ý Y' Y acute accent
+Þ thorn
+ß ss german eszett
+
+à a` a grave accent
+á a' a acute accent
+â a^ a hat, caret, circumflex
+ǎ a< a breve
+ã a~ a tilde
+ā a- a bar, macron
+ä a: a umlaut, diaresis
+å    a ring
+æ ae ash
+č c< c breve
+ç c, cedilla
+è e` e grave accent
+é e' e acute accent
+ê e^ e hat, caret, circumflex
+ě e< e breve
+ē e- e bar, macron
+ë e: e umlaut, diaresis
+ĝ g> g hat
+ĥ h> h hat
+ħ h/ h bar
+ì i` i grave accent
+í i' i acute accent
+î i^ i hat, caret, circumflex
+ǐ i< i breve
+ī i- i bar, macron
+ï i: i umlaut, diaresis
+ĵ j> j hat
+ò o` o grave accent
+ò o' o acute accent
+ó o^ o hat, caret, circumflex
+ô o~ o tilde
+ǒ o< o breve
+ō o- o bar, macron
+ö o: o umlaut, diaresis
+ø o/ o with stroke, slashed o
+ù u` u grave accent
+ú u' u acute accent
+û u^ u hat, caret, circumflex
+ǔ u< u breve
+ū u- u bar, macron
+ü u: u umlaut, diaresis
+ý y' y acute accent
+ÿ y: y umlaut, diaresis
+ñ n~ n tilde
+þ thorn
+
+## Super- and subscripts
+⁰ 0 superscipt; same for all digits
+⁺ + plus superscript
+⁻ - minus superscript
+⁼ = equal superscript
+⁽ ( paren superscript
+⁾ ) paren superscript
+⁽⁾ () paren superscript
+ⁿ n superscript
+₀ 0 subscript; same for all digits
+₊ + plus subscript
+₋ - minus subscript
+₌ = equal subscript
+₍ ( paren subscript
+₎ ) paren subscript
+₍₎ () paren subscript
+
+## Currency
+₤ pound, lb
+₧ spanish peseta (ESP)
+₩ korean won
+€ euro
+€ euro (same)
+₽ russian ruble
+₽ russian ruble (same)
+
+## Arrows
+← left arrow
+↑ up arrow
+→ right arrow
+↓ down arrow
+↔ left right arrow
+↕ up down arrow
+⇐ implies left
+⇒ implies right
+⇔ logical equivalence, implies left right
+⇀ right arrow, half hook
+↦ \mapsto, assignment
+▷ right-pointing triangle, module action
+◁ left-pointing triangle, module action
+⇓ down double arrow
+⇌ rightward harpoon over leftward harpoon (standard reversible reaction symbol)
+
+## Mathematical operators
+− a different dash sign...
+± plus minus
+∓ minus plus
+× times, cross
+÷ divide
+∗ a different * sign...
+∘ composition, tiny circle, hollow centered circle
+∙ bullet, big dot, big centered dot
+√ squareroot
+∝ proportional
+∞ infinity
+∟ square angle
+∠ acute angle
+∥ shorter double vertical line
+∧ and, conjunction
+∨ or, disjunction
+dP ∂ : del, partial
+∫ integration
+∬ double integration
+∮ contour integration
+∴ therefore, triple dot
+∵ because
+∶ a different colon...
+∷ double colon, list constructor, of type
+⊙ circle dot operator symbol, Soergel bimodules
+⊚ double concentric circle operator symbol
+⊕ direct sum
+⊗ tensor product
+⊸ lolli -o (linear logic)
+¬ negation logic
+¬ negation logic (same)
+⌐ looks like negation logic
+⊥ false, reverse T, upsidedown T, bottom
+⊤ true (0x22a4), T, skinny T
+⊦ assertion (0x22a6), turnstile, context
+⊣ left tack, adjunction (L ⊣ R)
+⊨ for model theory: M ⊨ T means M satisfies T
+⫦ judgement for linear logic (long dash from left member of double vertical)
+⋅ centered dot
+⋮ three vertical dots
+⋯ three horizontal dots, centered ellipsis
+∝ proportional
+≃ ~- \simeq, equivalent
+≅ ~= \simeq, equivalent
+≌ reverse simeq
+≈ ~~ double squiggly
+∼ tilde, squiggly
+∾ tilde, squiggly
+≐ equal with dot, definition
+≓ i have no idea
+〈open angle bracket
+〉close angle bracket
+⟦⟧ [] double square bracket, Oxford brackets
+⟦ double square bracket, Oxford brackets, open
+⟧ double square bracket, Oxford brackets, close
+⌊⌋ floor function
+⌊ floor function
+⌋ floor function
+⌈⌉ ceiling function
+⌈ ceiling function
+⌉ ceiling function
+
+## set, logic
+∩ intersection
+∪ union
+⊂ strict subset, \subset
+⊃ strict superset
+⊆ subset, \subseteq
+⊇ superset
+∈ element of, \in
+∋ element of but reversed, \ni
+∅ emptyset
+∀ forall, for all
+∃ there exists
+
+## non-standard greek-like symbols
+∆ delta but different...
+∇ nabla
+∏ \prod, big pi but different from Π
+∑ \sum, big sigma but different from Σ
+
+## (in)equality
+≠ unequal, inequality
+≡ congruent, triple equal, equivalence
+≤ less than or equal, leq
+≥ greater than or equal, geq
+≪ much less, double less, <<
+≫ much greater, double greater, >>
+≮ not less than
+≯ not greater than
+
+## Misc
+⨆ square union, join, lub
+⨅ square intersection, meet, glb
+⊑ square-ish, partial order, poset
+⊒ square-ish, partial order, poset
+
+□ qed, square
+ ⃞ another square, feels weird though
+
+## Box drawing
+─ horizontal
+│ vertical
+┄ horizontal dots
+┈ horizontal dots
+┆ vertical dots dash
+┊ vertical dots dash
+┌ top-left corner
+┐ top-right corner
+└ bottom-left corner
+┘ bottom-right corner
+├ T-junction vertical right
+┤ T-junction vertical left
+┬ T-junction horizontal down
+┴ T-junction horizontal up
+┼ full cross
+╱ diagonal forward
+╲ diagonal backward
+
+## Box drawing thick versions
+━ horizontal
+┃ vertical
+┅ horizontal dots
+┉ horizontal dots
+┇ vertical dots dash
+┋ vertical dots dash
+┍ top-left corner
+┏ top-left corner
+┎ top-left corner
+┑ top-right corner
+┓ top-right corner
+┒ top-right corner
+┕ bottom-left corner
+┖ bottom-left corner
+┗ bottom-left corner
+┙ bottom-right corner
+┚ bottom-right corner
+┛ bottom-right corner
+┝ T-junction vertical right
+┠ T-junction vertical right
+┣ T-junction vertical right
+┥ T-junction vertical left
+┨ T-junction vertical left
+┫ T-junction vertical left
+┯ T-junction horizontal down
+┰ T-junction horizontal down
+┳ T-junction horizontal down
+┷ T-junction horizontal up
+┸ T-junction horizontal up
+┻ T-junction horizontal up
+┿ full cross
+╂ full cross
+╋ full cross
+
